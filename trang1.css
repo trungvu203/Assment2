@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.menu ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+.topnav a, .menu a{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+}
+.menu a{
+    background-color: #F0F0F0;
+    padding: 10px;
+}
+.topnav {
+    background: #efdcdc;
+    padding: 25px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sanpham .container{
+    padding: 30px;
+}
+.item{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 80px;
+}
+.item:hover{
+    box-shadow: 0 0 5px black;
+}
+.item h2, .item p{
+    margin-bottom: 10px;
+}
+.item button{
+    padding: 10px 30px;
+    background-color: gray;
+    border: none;
+    outline: none;
+}
+.item button a{
+    color: white;
+    text-decoration: none;
+}
+.hiensanpham{
+    display: flex;
+    flex-wrap: wrap;
+}

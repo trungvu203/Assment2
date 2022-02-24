@@ -1,0 +1,23 @@
+body {
+    /* background: url("./MEC/anhden.jpg"); */
+    background-color: rgb(241, 226, 226);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+}
+.video {
+    display: flex;
+  
+}
+.kieuchu{
+    margin-left: 20px;
+
+}
+.kieuchu p{
+    font-size: 20px;
+}
+.kieuchu button{
+    background: rgb(148, 148, 224);
+    padding: 10px;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: url("./MEC/dangki.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(20px);
+    height: 300px;
+    width: 400px;
+}
+.dangnhap h2{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.username input, .password input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+.username p, .password p{
+    margin-bottom: 5px;
+    font-variant: small-caps;
+}
+.username, .password{
+    padding: 10px 30px;
+}
+.buttondangnhap button{
+    margin-left: 140px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+.welcome{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Nunito Sans';
+    font-size: 20px;
+}
